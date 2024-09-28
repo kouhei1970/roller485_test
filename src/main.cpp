@@ -2,11 +2,6 @@
 #include "unit_rolleri2c.hpp"
 #include <M5Unified.h>
 #include <MadgwickAHRS.h>
-//#include <freertos/FreeRTOS.h>
-//#include <freertos/task.h>
-//#include "esp_system.h"
-//#include "esp_task_wdt.h"
-#include <freertos/FreeRTOSConfig.h>
 
 UnitRollerI2C RollerI2C_RIGHT;  // Create a UNIT_ROLLERI2C object
 UnitRollerI2C RollerI2C_LEFT;
