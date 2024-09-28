@@ -5,4 +5,4 @@ srcフォルダにある
 ``unit_rolleri2c.cpp``
 ``unit_rolleri2c.hpp``
 
-が不具合修正版です
+以上が不具合修正版です
