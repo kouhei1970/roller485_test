@@ -56,8 +56,8 @@ void taskFunction(void *pvParameters) {
         MadgwickAHRSupdateIMU(Gyro_x * DEG_TO_RAD, Gyro_y * DEG_TO_RAD, Gyro_z * DEG_TO_RAD, Acc_x, Acc_y, Acc_z, &Pitch_ahrs, &Roll_ahrs, &Yaw_ahrs);
         
         // current mode
-        Current_ref_r = 0;
-        Current_ref_l = 0;
+        Current_ref_r = 10000;
+        Current_ref_l = 10000;
         RollerI2C_RIGHT.setCurrent(Current_ref_r);
         RollerI2C_LEFT.setCurrent(-Current_ref_l);
         Current_r = RollerI2C_RIGHT.getCurrentReadback();
